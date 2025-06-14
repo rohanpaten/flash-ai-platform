@@ -1,0 +1,85 @@
+Failed to connect to Redis: Error 61 connecting to localhost:6379. Connection refused.. Caching disabled.
+2025-06-11 11:29:45,373 - api_analysis_enhanced - WARNING - Startup dataset not found, using synthetic benchmarks
+2025-06-11 11:29:51,916 - models.unified_orchestrator_v3_integrated - INFO - Loading models for unified orchestrator...
+2025-06-11 11:29:52,131 - models.unified_orchestrator_v3_integrated - INFO - Loaded dna_analyzer
+2025-06-11 11:29:52,142 - models.unified_orchestrator_v3_integrated - INFO - Loaded temporal_model
+2025-06-11 11:29:52,160 - models.unified_orchestrator_v3_integrated - INFO - Loaded industry_model
+2025-06-11 11:29:52,205 - models.unified_orchestrator_v3_integrated - INFO - Loaded ensemble_model
+2025-06-11 11:29:52,219 - __main__ - INFO - LLM endpoints enabled
+2025-06-11 11:29:52,285 - __main__ - INFO - Starting FLASH API Server...
+2025-06-11 11:29:52,285 - __main__ - INFO - Loaded 4 models
+2025-06-11 11:29:52,285 - __main__ - INFO - Pattern system: Not available
+2025-06-11 11:29:52,285 - __main__ - INFO - Started system metrics collection
+/Users/sf/Desktop/FLASH/api_server_unified.py:1555: DeprecationWarning: 
+        on_event is deprecated, use lifespan event handlers instead.
+
+        Read more about it in the
+        [FastAPI docs for Lifespan Events](https://fastapi.tiangolo.com/advanced/events/).
+        
+  @app.on_event("shutdown")
+INFO:     Started server process [19587]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+INFO:     Uvicorn running on http://0.0.0.0:8001 (Press CTRL+C to quit)
+2025-06-11 11:34:34,210 - __main__ - INFO - [26439b45] OPTIONS /predict
+2025-06-11 11:34:34,211 - __main__ - INFO - [26439b45] Completed in 1.07ms - Status: 200
+INFO:     127.0.0.1:65289 - "OPTIONS /predict HTTP/1.1" 200 OK
+2025-06-11 11:34:34,213 - __main__ - INFO - [265b67ec] POST /predict
+2025-06-11 11:34:34,233 - __main__ - INFO - Received prediction request with 45 non-null fields
+2025-06-11 11:34:34,235 - utils.data_validation - WARNING - Validation warning: Domain expertise (20.0 years) exceeds total experience (15.0 years)
+2025-06-11 11:34:34,236 - utils.data_validation - WARNING - Validation warning: LTV/CAC ratio of 0.00 indicates negative unit economics
+2025-06-11 11:34:34,236 - type_converter_simple - INFO - Converted 53 fields to backend format
+2025-06-11 11:34:34,236 - __main__ - INFO - After conversion: 63 features
+2025-06-11 11:34:34,236 - __main__ - INFO - Filtered to 45 canonical features, 45 non-null
+2025-06-11 11:34:34,266 - models.unified_orchestrator_v3_integrated - INFO - Pattern system disabled - redistributed weights: {'camp_evaluation': 0.625, 'pattern_analysis': 0.0, 'industry_specific': 0.25, 'temporal_prediction': 0.125}
+/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/site-packages/sklearn/utils/validation.py:2732: UserWarning: X has feature names, but RandomForestClassifier was fitted without feature names
+  warnings.warn(
+2025-06-11 11:34:34,462 - __main__ - INFO - Calculated CAMP scores: {'capital': np.float64(0.5833359579981688), 'advantage': np.float64(0.6), 'market': np.float64(0.5414387676704018), 'people': np.float64(0.3697686805116403)}
+2025-06-11 11:34:34,462 - __main__ - INFO - Prediction complete: 38.6% probability, verdict: FAIL
+2025-06-11 11:34:34,464 - __main__ - INFO - [265b67ec] Completed in 251.39ms - Status: 200
+INFO:     127.0.0.1:65289 - "POST /predict HTTP/1.1" 200 OK
+2025-06-11 11:34:36,723 - __main__ - INFO - [5906142d] OPTIONS /health
+2025-06-11 11:34:36,723 - __main__ - INFO - [5906142d] Completed in 0.65ms - Status: 200
+INFO:     127.0.0.1:65289 - "OPTIONS /health HTTP/1.1" 200 OK
+2025-06-11 11:34:36,725 - __main__ - INFO - [aee355c4] GET /health
+2025-06-11 11:34:36,726 - __main__ - INFO - [aee355c4] Completed in 0.84ms - Status: 200
+INFO:     127.0.0.1:65289 - "GET /health HTTP/1.1" 200 OK
+2025-06-11 12:36:41,356 - __main__ - INFO - [5bc1241c] OPTIONS /predict
+2025-06-11 12:36:41,360 - __main__ - INFO - [5bc1241c] Completed in 4.65ms - Status: 200
+INFO:     127.0.0.1:52555 - "OPTIONS /predict HTTP/1.1" 200 OK
+2025-06-11 12:36:41,364 - __main__ - INFO - [070b9820] POST /predict
+2025-06-11 12:36:41,375 - __main__ - INFO - Received prediction request with 45 non-null fields
+2025-06-11 12:36:41,378 - utils.data_validation - WARNING - Validation warning: Domain expertise (20.0 years) exceeds total experience (15.0 years)
+2025-06-11 12:36:41,379 - type_converter_simple - INFO - Converted 53 fields to backend format
+2025-06-11 12:36:41,379 - __main__ - INFO - After conversion: 63 features
+2025-06-11 12:36:41,379 - __main__ - INFO - Filtered to 45 canonical features, 45 non-null
+2025-06-11 12:36:41,421 - models.unified_orchestrator_v3_integrated - INFO - Pattern system disabled - redistributed weights: {'camp_evaluation': 0.625, 'pattern_analysis': 0.0, 'industry_specific': 0.25, 'temporal_prediction': 0.125}
+/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/site-packages/sklearn/utils/validation.py:2732: UserWarning: X has feature names, but RandomForestClassifier was fitted without feature names
+  warnings.warn(
+2025-06-11 12:36:41,590 - __main__ - INFO - Calculated CAMP scores: {'capital': np.float64(0.6519311052240173), 'advantage': np.float64(0.75), 'market': np.float64(0.6016612068056144), 'people': np.float64(0.43316977164511616)}
+2025-06-11 12:36:41,590 - __main__ - INFO - Prediction complete: 51.9% probability, verdict: CONDITIONAL PASS
+2025-06-11 12:36:41,592 - __main__ - INFO - [070b9820] Completed in 227.82ms - Status: 200
+INFO:     127.0.0.1:52555 - "POST /predict HTTP/1.1" 200 OK
+2025-06-11 12:36:43,827 - __main__ - INFO - [f43e175a] OPTIONS /health
+2025-06-11 12:36:43,827 - __main__ - INFO - [f43e175a] Completed in 0.53ms - Status: 200
+INFO:     127.0.0.1:52555 - "OPTIONS /health HTTP/1.1" 200 OK
+2025-06-11 12:36:43,830 - __main__ - INFO - [c37f7ae4] GET /health
+2025-06-11 12:36:43,831 - __main__ - INFO - [c37f7ae4] Completed in 1.13ms - Status: 200
+INFO:     127.0.0.1:52555 - "GET /health HTTP/1.1" 200 OK
+2025-06-11 12:38:25,405 - __main__ - INFO - [687631a0] OPTIONS /api/analysis/recommendations/dynamic
+2025-06-11 12:38:25,406 - __main__ - INFO - [687631a0] Completed in 0.58ms - Status: 200
+INFO:     127.0.0.1:52640 - "OPTIONS /api/analysis/recommendations/dynamic HTTP/1.1" 200 OK
+2025-06-11 12:38:25,407 - __main__ - INFO - [709dc137] POST /api/analysis/recommendations/dynamic
+2025-06-11 12:38:25,414 - llm_analysis - WARNING - Redis not available: Error 61 connecting to localhost:6379. Connection refused.. Using in-memory cache.
+2025-06-11 12:38:25,418 - simple_cache - INFO - Initialized in-memory cache
+2025-06-11 12:38:25,424 - api_llm_endpoints - INFO - Generating dynamic recommendations for logistics
+2025-06-11 12:38:49,312 - llm_analysis - INFO - Cached response for llm:recommendations:e7a793360ce2f28f2c80c33cb71c4956
+2025-06-11 12:38:49,313 - __main__ - INFO - [709dc137] Completed in 23905.68ms - Status: 200
+INFO:     127.0.0.1:52640 - "POST /api/analysis/recommendations/dynamic HTTP/1.1" 200 OK
+2025-06-11 12:38:49,314 - api_llm_endpoints - INFO - LLM usage: recommendations for series_a logistics
+INFO:     Shutting down
+INFO:     Waiting for application shutdown.
+2025-06-11 13:59:26,304 - __main__ - INFO - Shutting down LLM engine...
+2025-06-11 13:59:26,305 - __main__ - INFO - Shutdown complete
+INFO:     Application shutdown complete.
+INFO:     Finished server process [19587]
