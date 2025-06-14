@@ -1,0 +1,38 @@
+2025-05-30 12:30:56,496 - __main__ - INFO - ============================================================
+2025-05-30 12:30:56,497 - __main__ - INFO - FLASH Unified Model Training - Elite Standards
+2025-05-30 12:30:56,497 - __main__ - INFO - ============================================================
+2025-05-30 12:30:56,497 - __main__ - INFO - Loading training data...
+2025-05-30 12:31:26,770 - __main__ - INFO - ============================================================
+2025-05-30 12:31:26,771 - __main__ - INFO - FLASH Unified Model Training - Elite Standards
+2025-05-30 12:31:26,771 - __main__ - INFO - ============================================================
+2025-05-30 12:31:26,771 - __main__ - INFO - Loading training data...
+2025-05-30 12:31:28,317 - __main__ - INFO - Loaded 100000 samples
+2025-05-30 12:33:54,703 - __main__ - INFO - ============================================================
+2025-05-30 12:33:54,704 - __main__ - INFO - FLASH Unified Model Training - Elite Standards
+2025-05-30 12:33:54,704 - __main__ - INFO - ============================================================
+2025-05-30 12:33:54,704 - __main__ - INFO - Loading training data...
+2025-05-30 12:33:56,406 - __main__ - INFO - Loaded 100000 samples
+2025-05-30 12:33:56,511 - __main__ - INFO - Train: 80000, Test: 20000
+2025-05-30 12:33:57,100 - __main__ - INFO - Training DNA Analyzer (CAMP evaluation model)...
+2025-05-30 12:34:00,308 - __main__ - INFO - DNA Analyzer AUC: 0.7749
+2025-05-30 12:34:00,308 - __main__ - INFO - Training Temporal Model...
+2025-05-30 12:34:24,898 - __main__ - INFO - ============================================================
+2025-05-30 12:34:24,898 - __main__ - INFO - FLASH Unified Model Training - Elite Standards
+2025-05-30 12:34:24,898 - __main__ - INFO - ============================================================
+2025-05-30 12:34:24,898 - __main__ - INFO - Loading training data...
+2025-05-30 12:34:26,274 - __main__ - INFO - Loaded 100000 samples
+2025-05-30 12:34:26,414 - __main__ - INFO - Train: 80000, Test: 20000
+2025-05-30 12:34:26,945 - __main__ - INFO - Training DNA Analyzer (CAMP evaluation model)...
+2025-05-30 12:34:29,733 - __main__ - INFO - DNA Analyzer AUC: 0.7749
+2025-05-30 12:34:29,733 - __main__ - INFO - Training Temporal Model...
+2025-05-30 12:34:36,868 - __main__ - INFO - Temporal Model AUC: 0.7707
+2025-05-30 12:34:36,868 - __main__ - INFO - Training Industry Model...
+2025-05-30 12:34:51,543 - __main__ - INFO - Industry Model AUC: 0.7739
+2025-05-30 12:34:51,544 - __main__ - INFO - Training Ensemble Model...
+2025-05-30 12:34:54,141 - __main__ - INFO - Ensemble Model AUC: 0.7290
+2025-05-30 12:34:54,141 - __main__ - INFO - 
+Training completed in 29.2 seconds
+2025-05-30 12:34:54,142 - __main__ - INFO - Average AUC: 0.7621
+2025-05-30 12:34:54,212 - __main__ - INFO - Saved dna_analyzer to models/unified_v45/dna_analyzer.pkl
+2025-05-30 12:34:54,262 - __main__ - INFO - Saved temporal_model to models/unified_v45/temporal_model.pkl
+2025-05-30 12:34:54,266 - __main__ - INFO - Saved industry_model to models/unified_v45/industry_model.pkl
