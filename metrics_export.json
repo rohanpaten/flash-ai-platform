@@ -1,0 +1,124 @@
+{
+  "summary": {
+    "uptime_seconds": 5.883671045303345,
+    "total_requests": 7,
+    "total_predictions": 2,
+    "total_errors": 0,
+    "requests_per_second": 1.189733407272619,
+    "predictions_per_second": 0.3399238306493197,
+    "error_rate": 0.0,
+    "response_time_percentiles": {
+      "p50": 0.8509159088134766,
+      "p95": 218.29915046691895,
+      "p99": 218.29915046691895
+    },
+    "verdict_distribution": {
+      "PASS": 0,
+      "CONDITIONAL PASS": 2,
+      "FAIL": 0
+    },
+    "system_metrics": {
+      "timestamp": "2025-06-01T08:06:54.451900",
+      "cpu_percent": 10.2,
+      "memory_percent": 55.8,
+      "memory_used_mb": 8470.5859375,
+      "memory_available_mb": 7241.3046875,
+      "disk_percent": 3.6,
+      "disk_free_gb": 282.52955627441406,
+      "process_memory_mb": 250.73046875,
+      "process_cpu_percent": 0.0
+    },
+    "timestamp": "2025-06-01T08:06:57.825862"
+  },
+  "counters": {
+    "total_requests": 7,
+    "requests_/health": 2,
+    "status_200": 7,
+    "total_predictions": 2,
+    "total_errors": 0,
+    "requests_/metrics/summary": 2,
+    "requests_/metrics": 1,
+    "verdict_CONDITIONAL PASS": 2,
+    "prob_bucket_60": 2,
+    "requests_/predict": 2
+  },
+  "recent_requests": [
+    {
+      "timestamp": "2025-06-01T08:06:55.484429",
+      "endpoint": "/health",
+      "method": "GET",
+      "status_code": 200,
+      "response_time_ms": 0.9832382202148438,
+      "request_id": "03ea6d93"
+    },
+    {
+      "timestamp": "2025-06-01T08:06:55.488410",
+      "endpoint": "/health",
+      "method": "GET",
+      "status_code": 200,
+      "response_time_ms": 0.6279945373535156,
+      "request_id": "f5065331"
+    },
+    {
+      "timestamp": "2025-06-01T08:06:55.491736",
+      "endpoint": "/metrics/summary",
+      "method": "GET",
+      "status_code": 200,
+      "response_time_ms": 0.6608963012695312,
+      "request_id": "676fd3e7"
+    },
+    {
+      "timestamp": "2025-06-01T08:06:55.495074",
+      "endpoint": "/metrics",
+      "method": "GET",
+      "status_code": 200,
+      "response_time_ms": 0.6489753723144531,
+      "request_id": "e019eb77"
+    },
+    {
+      "timestamp": "2025-06-01T08:06:55.716108",
+      "endpoint": "/predict",
+      "method": "POST",
+      "status_code": 200,
+      "response_time_ms": 218.29915046691895,
+      "request_id": "0f9f3fd6"
+    },
+    {
+      "timestamp": "2025-06-01T08:06:55.815262",
+      "endpoint": "/predict",
+      "method": "POST",
+      "status_code": 200,
+      "response_time_ms": 94.88582611083984,
+      "request_id": "3255a873"
+    },
+    {
+      "timestamp": "2025-06-01T08:06:57.822303",
+      "endpoint": "/metrics/summary",
+      "method": "GET",
+      "status_code": 200,
+      "response_time_ms": 0.8509159088134766,
+      "request_id": "e1640a8a"
+    }
+  ],
+  "recent_predictions": [
+    {
+      "timestamp": "2025-06-01T08:06:55.714754",
+      "success_probability": 0.6675732581297253,
+      "confidence_score": 0.6675732581297253,
+      "verdict": "CONDITIONAL PASS",
+      "processing_time_ms": 0,
+      "model_version": "orchestrator_v3",
+      "pattern_detected": null
+    },
+    {
+      "timestamp": "2025-06-01T08:06:55.814677",
+      "success_probability": 0.682969580697123,
+      "confidence_score": 0.682969580697123,
+      "verdict": "CONDITIONAL PASS",
+      "processing_time_ms": 0,
+      "model_version": "orchestrator_v3",
+      "pattern_detected": null
+    }
+  ],
+  "recent_errors": []
+}
