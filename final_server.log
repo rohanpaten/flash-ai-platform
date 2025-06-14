@@ -1,0 +1,28 @@
+2025-05-31 13:05:23,735 - models.unified_orchestrator_v3_integrated - INFO - Loading models for unified orchestrator...
+2025-05-31 13:05:25,082 - models.unified_orchestrator_v3_integrated - INFO - Loaded dna_analyzer
+2025-05-31 13:05:25,478 - models.unified_orchestrator_v3_integrated - INFO - Loaded temporal_model
+2025-05-31 13:05:26,066 - models.unified_orchestrator_v3_integrated - INFO - Loaded industry_model
+2025-05-31 13:05:26,071 - models.unified_orchestrator_v3_integrated - INFO - Loaded ensemble_model
+/Users/sf/Desktop/FLASH/api_server_unified.py:125: PydanticDeprecatedSince20: Pydantic V1 style `@validator` validators are deprecated. You should migrate to Pydantic V2 style `@field_validator` validators, see the migration guide for more details. Deprecated in Pydantic V2.0 to be removed in V3.0. See Pydantic V2 Migration Guide at https://errors.pydantic.dev/2.11/migration/
+  @validator('funding_stage', 'product_stage', 'sector', 'investor_tier_primary')
+/Users/sf/Desktop/FLASH/api_server_unified.py:132: PydanticDeprecatedSince20: Pydantic V1 style `@validator` validators are deprecated. You should migrate to Pydantic V2 style `@field_validator` validators, see the migration guide for more details. Deprecated in Pydantic V2.0 to be removed in V3.0. See Pydantic V2 Migration Guide at https://errors.pydantic.dev/2.11/migration/
+  @validator('*', pre=True)
+2025-05-31 13:05:26,091 - __main__ - INFO - Starting FLASH API Server...
+2025-05-31 13:05:26,091 - __main__ - INFO - Loaded 4 models
+2025-05-31 13:05:26,092 - __main__ - INFO - Pattern system: Not available
+INFO:     Started server process [27165]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+INFO:     Uvicorn running on http://0.0.0.0:8001 (Press CTRL+C to quit)
+/Users/sf/Desktop/FLASH/api_server_unified.py:211: PydanticDeprecatedSince20: The `dict` method is deprecated; use `model_dump` instead. Deprecated in Pydantic V2.0 to be removed in V3.0. See Pydantic V2 Migration Guide at https://errors.pydantic.dev/2.11/migration/
+  data_dict = data.dict()
+2025-05-31 13:05:41,464 - __main__ - INFO - Received prediction request with 6 non-null fields
+2025-05-31 13:05:41,465 - type_converter_simple - INFO - Converted 99 fields to backend format
+2025-05-31 13:05:41,465 - __main__ - INFO - After conversion: 110 features
+2025-05-31 13:05:41,470 - models.unified_orchestrator_v3_integrated - ERROR - Prediction error: Feature shape mismatch, expected: 49, got 110
+2025-05-31 13:05:41,471 - __main__ - INFO - Prediction complete: 50.0% probability, verdict: CONDITIONAL PASS
+INFO:     127.0.0.1:55821 - "POST /predict HTTP/1.1" 200 OK
+INFO:     Shutting down
+INFO:     Waiting for application shutdown.
+INFO:     Application shutdown complete.
+INFO:     Finished server process [27165]
