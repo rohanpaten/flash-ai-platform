@@ -1,0 +1,17 @@
+{
+  "startup_data": {
+    "funding_stage": "series_a",
+    "sector": "saas",
+    "annual_revenue_run_rate": 3000000,
+    "revenue_growth_rate_percent": 150,
+    "team_size_full_time": 25
+  },
+  "scores": {
+    "capital": 0.55,
+    "advantage": 0.44,
+    "market": 0.63,
+    "people": 0.27,
+    "success_probability": 0.52
+  },
+  "verdict": "CONDITIONAL PASS"
+}
