@@ -1,0 +1,31 @@
+2025-05-27 13:00:30,613 - INFO - Loading 45-feature dataset...
+2025-05-27 13:00:31,901 - INFO - Training set: 80000 samples
+2025-05-27 13:00:31,902 - INFO - Test set: 20000 samples
+2025-05-27 13:00:31,902 - INFO - Training Stage-Based Hierarchical Model...
+2025-05-27 13:00:35,505 - INFO - Trained pre_seed model - AUC: 0.885
+2025-05-27 13:00:40,053 - INFO - Trained seed model - AUC: 0.695
+2025-05-27 13:00:45,551 - INFO - Trained series_a model - AUC: 0.675
+2025-05-27 13:00:52,654 - INFO - Trained series_b model - AUC: 0.748
+2025-05-27 13:00:56,509 - INFO - Trained series_c model - AUC: 0.942
+2025-05-27 13:05:17,775 - INFO - Training Temporal Hierarchical Model...
+2025-05-27 13:05:22,411 - INFO - Trained short_term model - AUC: 0.777
+2025-05-27 13:05:26,935 - INFO - Trained medium_term model - AUC: 0.778
+2025-05-27 13:05:31,069 - INFO - Trained long_term model - AUC: 0.778
+2025-05-27 13:05:31,629 - INFO - Training Industry-Specific Model...
+2025-05-27 13:05:33,717 - INFO - Trained SaaS model - AUC: 0.805
+2025-05-27 13:05:35,435 - INFO - Trained FinTech model - AUC: 0.819
+2025-05-27 13:05:36,956 - INFO - Trained HealthTech model - AUC: 0.802
+2025-05-27 13:05:38,351 - INFO - Trained E-commerce model - AUC: 0.812
+2025-05-27 13:07:11,643 - INFO - Training DNA Pattern Analyzer...
+2025-05-27 13:07:24,041 - INFO - Trained DNA pattern model - AUC: 0.723
+2025-05-27 13:07:24,049 - INFO - Creating meta-ensemble...
+2025-05-27 13:13:16,481 - INFO - Final Hierarchical Ensemble - AUC: 0.854
+2025-05-27 13:14:48,427 - INFO - 
+Test Set Performance:
+2025-05-27 13:14:48,427 - INFO - AUC: 0.764
+2025-05-27 13:14:48,427 - INFO - Accuracy: 0.711
+2025-05-27 13:14:48,427 - INFO - Precision: 0.681
+2025-05-27 13:14:48,427 - INFO - Recall: 0.534
+2025-05-27 13:14:48,453 - INFO - Saved hierarchical models to models/hierarchical_45features
+2025-05-27 13:14:48,453 - INFO - 
+Hierarchical model training complete!
