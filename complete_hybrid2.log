@@ -1,0 +1,66 @@
+/Users/sf/Desktop/FLASH/api_server_complete_hybrid.py:93: DeprecationWarning: 
+        on_event is deprecated, use lifespan event handlers instead.
+
+        Read more about it in the
+        [FastAPI docs for Lifespan Events](https://fastapi.tiangolo.com/advanced/events/).
+        
+  @app.on_event("startup")
+2025-06-01 23:04:42,422 - __main__ - INFO - Starting Complete Hybrid API Server on port 8001...
+INFO:     Started server process [41689]
+INFO:     Waiting for application startup.
+2025-06-01 23:04:42,472 - complete_hybrid_orchestrator - INFO - Loading complete hybrid system...
+2025-06-01 23:04:44,091 - core.feature_registry - INFO - Registered feature: funding_stage at position 0
+2025-06-01 23:04:44,091 - core.feature_registry - INFO - Registered feature: revenue_growth_rate at position 1
+2025-06-01 23:04:44,091 - core.feature_registry - INFO - Registered feature: team_size_full_time at position 2
+2025-06-01 23:04:44,091 - core.feature_registry - INFO - Registered feature: total_capital_raised_usd at position 3
+2025-06-01 23:04:44,091 - core.feature_registry - INFO - Registered feature: annual_recurring_revenue_millions at position 4
+2025-06-01 23:04:44,091 - core.feature_registry - INFO - Registered feature: annual_revenue_run_rate at position 5
+2025-06-01 23:04:44,091 - core.feature_registry - INFO - Registered feature: burn_multiple at position 6
+2025-06-01 23:04:44,091 - core.feature_registry - INFO - Registered feature: market_tam_billions at position 7
+2025-06-01 23:04:44,091 - core.feature_registry - INFO - Registered feature: market_growth_rate at position 8
+2025-06-01 23:04:44,091 - core.feature_registry - INFO - Registered feature: market_competitiveness at position 9
+2025-06-01 23:04:44,091 - core.feature_registry - INFO - Registered feature: customer_acquisition_cost at position 10
+2025-06-01 23:04:44,091 - core.feature_registry - INFO - Registered feature: customer_lifetime_value at position 11
+2025-06-01 23:04:44,091 - core.feature_registry - INFO - Registered feature: customer_growth_rate at position 12
+2025-06-01 23:04:44,091 - core.feature_registry - INFO - Registered feature: net_revenue_retention at position 13
+2025-06-01 23:04:44,091 - core.feature_registry - INFO - Registered feature: average_deal_size at position 14
+2025-06-01 23:04:44,092 - core.feature_registry - INFO - Registered feature: sales_cycle_days at position 15
+2025-06-01 23:04:44,092 - core.feature_registry - INFO - Registered feature: international_revenue_percent at position 16
+2025-06-01 23:04:44,092 - core.feature_registry - INFO - Registered feature: target_enterprise at position 17
+2025-06-01 23:04:44,092 - core.feature_registry - INFO - Registered feature: product_market_fit_score at position 18
+2025-06-01 23:04:44,092 - core.feature_registry - INFO - Registered feature: technology_score at position 19
+2025-06-01 23:04:44,092 - core.feature_registry - INFO - Registered feature: scalability_score at position 20
+2025-06-01 23:04:44,092 - core.feature_registry - INFO - Registered feature: has_patent at position 21
+2025-06-01 23:04:44,092 - core.feature_registry - INFO - Registered feature: research_development_percent at position 22
+2025-06-01 23:04:44,092 - core.feature_registry - INFO - Registered feature: uses_ai_ml at position 23
+2025-06-01 23:04:44,092 - core.feature_registry - INFO - Registered feature: cloud_native at position 24
+2025-06-01 23:04:44,092 - core.feature_registry - INFO - Registered feature: mobile_first at position 25
+2025-06-01 23:04:44,092 - core.feature_registry - INFO - Registered feature: platform_business at position 26
+2025-06-01 23:04:44,092 - core.feature_registry - INFO - Registered feature: founder_experience_years at position 27
+2025-06-01 23:04:44,092 - core.feature_registry - INFO - Registered feature: repeat_founder at position 28
+2025-06-01 23:04:44,092 - core.feature_registry - INFO - Registered feature: technical_founder at position 29
+2025-06-01 23:04:44,092 - core.feature_registry - INFO - Registered feature: employee_growth_rate at position 30
+2025-06-01 23:04:44,092 - core.feature_registry - INFO - Registered feature: advisor_quality_score at position 31
+2025-06-01 23:04:44,092 - core.feature_registry - INFO - Registered feature: board_diversity_score at position 32
+2025-06-01 23:04:44,093 - core.feature_registry - INFO - Registered feature: team_industry_experience at position 33
+2025-06-01 23:04:44,093 - core.feature_registry - INFO - Registered feature: key_person_dependency at position 34
+2025-06-01 23:04:44,093 - core.feature_registry - INFO - Registered feature: top_university_alumni at position 35
+2025-06-01 23:04:44,093 - core.feature_registry - INFO - Registered feature: investor_tier_primary at position 36
+2025-06-01 23:04:44,093 - core.feature_registry - INFO - Registered feature: active_investors at position 37
+2025-06-01 23:04:44,093 - core.feature_registry - INFO - Registered feature: cash_on_hand_months at position 38
+2025-06-01 23:04:44,093 - core.feature_registry - INFO - Registered feature: runway_months at position 39
+2025-06-01 23:04:44,093 - core.feature_registry - INFO - Registered feature: time_to_next_funding at position 40
+2025-06-01 23:04:44,093 - core.feature_registry - INFO - Registered feature: previous_exit at position 41
+2025-06-01 23:04:44,093 - core.feature_registry - INFO - Registered feature: industry_connections at position 42
+2025-06-01 23:04:44,093 - core.feature_registry - INFO - Registered feature: media_coverage at position 43
+2025-06-01 23:04:44,093 - core.feature_registry - INFO - Registered feature: regulatory_risk at position 44
+2025-06-01 23:04:44,097 - complete_hybrid_orchestrator - INFO - Loaded base model: dna_analyzer
+2025-06-01 23:04:44,132 - complete_hybrid_orchestrator - INFO - Loaded base model: temporal_model
+2025-06-01 23:04:44,344 - complete_hybrid_orchestrator - INFO - Loaded base model: industry_model
+2025-06-01 23:04:44,351 - complete_hybrid_orchestrator - INFO - Loaded base model: ensemble_model
+2025-06-01 23:04:44,722 - complete_hybrid_orchestrator - INFO - Loaded 29 models across 5 categories
+2025-06-01 23:04:44,722 - __main__ - INFO - Complete Hybrid API server started successfully
+INFO:     Application startup complete.
+ERROR:    [Errno 48] error while attempting to bind on address ('0.0.0.0', 8001): address already in use
+INFO:     Waiting for application shutdown.
+INFO:     Application shutdown complete.
