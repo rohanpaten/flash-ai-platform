@@ -1,0 +1,22 @@
+2025-05-30 10:12:38,179 - __main__ - INFO - Initializing enhanced orchestrator with pattern support...
+2025-05-30 10:12:38,180 - models.unified_orchestrator_v3 - ERROR - Error loading dna_analyzer: Can't get attribute 'OptimizedDNAPatternAnalyzer' on <module '__main__' from '/Users/sf/Desktop/FLASH/api_server_final_integrated.py'>
+2025-05-30 10:12:38,180 - models.unified_orchestrator_v3 - ERROR - Error loading temporal_model: Can't get attribute 'OptimizedTemporalModel' on <module '__main__' from '/Users/sf/Desktop/FLASH/api_server_final_integrated.py'>
+2025-05-30 10:12:38,182 - models.unified_orchestrator_v3 - ERROR - Error loading industry_model: Can't get attribute 'OptimizedIndustryModel' on <module '__main__' from '/Users/sf/Desktop/FLASH/api_server_final_integrated.py'>
+2025-05-30 10:12:38,182 - models.unified_orchestrator_v3 - ERROR - Error loading ensemble_model: Can't get attribute 'OptimizedDNAPatternAnalyzer' on <module '__main__' from '/Users/sf/Desktop/FLASH/api_server_final_integrated.py'>
+2025-05-30 10:12:39,330 - ml_core.models.pattern_classifier_simple - INFO - Loaded 31 pattern models
+2025-05-30 10:12:39,330 - models.unified_orchestrator_v3 - INFO - Loaded pattern classification system
+2025-05-30 10:12:39,330 - __main__ - INFO - ✅ Orchestrator initialized successfully
+2025-05-30 10:12:39,611 - __main__ - INFO - ============================================================
+2025-05-30 10:12:39,611 - __main__ - INFO - FLASH Integrated API Server Starting
+2025-05-30 10:12:39,611 - __main__ - INFO - ============================================================
+2025-05-30 10:12:39,611 - __main__ - INFO - Features:
+2025-05-30 10:12:39,611 - __main__ - INFO - - Type conversion for frontend compatibility
+2025-05-30 10:12:39,611 - __main__ - INFO - - All endpoints implemented
+2025-05-30 10:12:39,611 - __main__ - INFO - - Response transformation to frontend format
+2025-05-30 10:12:39,611 - __main__ - INFO - - Pattern system integrated
+2025-05-30 10:12:39,611 - __main__ - INFO - ============================================================
+2025-05-30 10:12:42,030 - __main__ - INFO - Prediction successful: 0.493
+2025-05-30 10:12:42,961 - __main__ - INFO - Prediction successful: 0.493
+2025-05-30 10:12:43,932 - __main__ - INFO - Enhanced prediction successful: 0.493
+2025-05-30 10:12:44,881 - __main__ - INFO - Enhanced prediction successful: 0.493
+2025-05-30 10:12:46,803 - __main__ - INFO - Prediction successful: 0.474
