@@ -1,0 +1,13 @@
+# Lightweight requirements for free hosting
+# Core API dependencies only
+
+fastapi==0.104.1
+uvicorn[standard]==0.24.0
+pydantic==2.5.0
+python-multipart==0.0.6
+aiofiles==23.2.1
+
+# Remove heavy ML dependencies for demo
+# scikit-learn, xgboost, lightgbm, catboost removed
+# pandas, numpy removed
+# redis, psycopg2 removed
