@@ -1,0 +1,17 @@
+INFO:     Started server process [15461]
+INFO:     Waiting for application startup.
+INFO:__main__:Initializing enhanced orchestrator with pattern support...
+INFO:models.unified_orchestrator_v2:Initialized enhanced orchestrator with pattern support
+INFO:models.unified_orchestrator:Loading base ensemble models...
+INFO:models.unified_orchestrator:Loading stage hierarchical models...
+ERROR:models.unified_orchestrator:Error loading models: [Errno 2] No such file or directory: 'models/stage_hierarchical/pre-seed_model.pkl'
+INFO:models.unified_orchestrator_v2:Loading pattern-specific models...
+INFO:models.unified_orchestrator_v2:Loaded 5 pattern-specific models
+INFO:models.unified_orchestrator_v2:Loaded profiles for 5 patterns
+WARNING:__main__:⚠️ Orchestrator initialized with limited models
+INFO:     Application startup complete.
+INFO:     Uvicorn running on http://0.0.0.0:8001 (Press CTRL+C to quit)
+INFO:     127.0.0.1:60804 - "GET /health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60826 - "POST /predict HTTP/1.1" 422 Unprocessable Content
+ERROR:__main__:Prediction error: X has 11 features, but RandomForestClassifier is expecting 10 features as input.
+INFO:     127.0.0.1:60859 - "POST /predict HTTP/1.1" 500 Internal Server Error
